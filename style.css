@@ -1,7 +1,30 @@
+@font-face {
+    font-family: Lato;
+    src: url(./assets/fonts/Lato-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
 
+html, body {
+    font-family: Lato, system-ui, -apple-system, sans-serif;
+    font-size: 1rem;
+}
+
 img {
     max-height: 50vh;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    line-height: 1.5rem;
+}
+
+.wrapper {
+    max-width: 70vw;
+    margin: 0 auto;
 }
